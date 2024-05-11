@@ -12,6 +12,7 @@ CREATE TABLE plans (
 ''''
 #Inserting data into the plans table
   # Query
+  '''' sql
 INSERT INTO plans
   (plan_id, plan_name, price)
 VALUES
@@ -20,15 +21,19 @@ VALUES
   ('2', 'pro monthly', '19.90'),
   ('3', 'pro annual', '199'),
   ('4', 'churn', null);
+''''
 # Now lets create the subscriptions table in schema
-
-
+  #Query
+  '''' sql
 CREATE TABLE subscriptions (
   customer_id INTEGER,
   plan_id INTEGER,
   start_date DATE
 );
-
+''''
+#Lets insert data into the subscriptions table
+  #Query:
+  ''''sql
 INSERT INTO subscriptions
   (customer_id, plan_id, start_date)
 VALUES
@@ -2682,3 +2687,4 @@ VALUES
   ('1000', '0', '2020-03-19'),
   ('1000', '2', '2020-03-26'),
   ('1000', '4', '2020-06-04');
+''''
