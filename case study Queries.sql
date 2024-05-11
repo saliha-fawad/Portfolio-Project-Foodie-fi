@@ -1,13 +1,14 @@
-/* Problem 1:
-How many customers has Foodie-Fi ever had?  */
-/* Solution: 
-we can use/try Distinct Count function to solve our problem.Here is the query attached below:*/
+CASE STUDY PROBLEMS ANALYSIS:
+  # Problem 1:
+## How many customers has Foodie-Fi ever had?  
+## Solution: 
+#QUERY:
 SELECT COUNT(DISTINCT customer_id) AS total_customers
 FROM subscriptions; 
 
-/* Problem 2 
-What is the monthly distribution of trial plan start_date values for our dataset. */
-/* Solution:
+# Problem 2 :
+## What is the monthly distribution of trial plan start_date values for our dataset. 
+## Solution:
   First of all we try Date_Format data type and then try to use and apply group by function to solve our problem.Here is the query 
   attached below: */
 SELECT DATE_FORMAT(start_date, '%Y-%m-01') AS start_of_month, COUNT(*) AS total_plan
