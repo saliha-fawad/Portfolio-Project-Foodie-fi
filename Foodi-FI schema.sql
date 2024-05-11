@@ -1,13 +1,17 @@
-
+# Create foodie_fi schema
+  ## Query:
 CREATE SCHEMA foodie_fi;
 USE foodie_fi;
-
+# Creating plans table in schema:
+  '''' sql
 CREATE TABLE plans (
   plan_id INTEGER,
   plan_name VARCHAR(13),
   price DECIMAL(5,2)
 );
-
+''''
+#Inserting data into the plans table
+  # Query
 INSERT INTO plans
   (plan_id, plan_name, price)
 VALUES
@@ -16,7 +20,7 @@ VALUES
   ('2', 'pro monthly', '19.90'),
   ('3', 'pro annual', '199'),
   ('4', 'churn', null);
-
+# Now lets create the subscriptions table in schema
 
 
 CREATE TABLE subscriptions (
