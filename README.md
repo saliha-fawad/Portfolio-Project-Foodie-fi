@@ -1,5 +1,5 @@
 # Portfolio-Project-Foodie-fi
-Here its my first SQL Portfolio Project which i shared onn Github publically.I hope you both guys understand it well. so  lets start..........................................................................................................................
+Here its my first SQL Portfolio Project which i shared onn Github publically.I hope you both guys understand it well. ................................................................................................................................................................................
 
 SCHEMA AND TABLES QUERIES AND RESULTS:
 ![image](https://github.com/saliha-fawad/Portfolio-Project-Foodie-fi/assets/169520745/59a3953a-a41a-4a01-8280-f75015a53a41)
@@ -12,7 +12,9 @@ SCHEMA AND TABLES QUERIES AND RESULTS:
 ![image](https://github.com/saliha-fawad/Portfolio-Project-Foodie-fi/assets/169520745/d6096e69-ca9e-4a94-97ce-681e2a55e831)
 ![image](https://github.com/saliha-fawad/Portfolio-Project-Foodie-fi/assets/169520745/53311ed3-b1be-4b3e-8468-657786ca920f)
 ![image](https://github.com/saliha-fawad/Portfolio-Project-Foodie-fi/assets/169520745/ff0521a1-723c-4626-9bc8-42361bc99175)
-...................................................................................................................
+.............................................................................................................................................................................
+
+
 Case Study Problems Analysis Results:
 .......................................................................................................................
 
